@@ -24,8 +24,8 @@ pizzas.map((item, index) => {
 function menuBurger() {
     document.querySelector(".menuBurguer").addEventListener("click", (e) => {
         let menu = document.querySelector(".menu")
-        menu.classList.toggle("menuShow")
         menu.style.display = 'flex'
+        menu.classList.toggle("menuShow")
 
 
 
