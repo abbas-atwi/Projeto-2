@@ -24,8 +24,12 @@ pizzas.map((item, index) => {
 function menuBurger() {
     document.querySelector(".menuBurguer").addEventListener("click", (e) => {
         let menu = document.querySelector(".menu")
-        menu.style.display = 'flex'
+            menu.style.display = 'flex'
+            menu.style.marginLeft = -1000
+    setTimeout(()=>{
         menu.classList.toggle("menuShow")
+    },200)
+        
 
 
 
