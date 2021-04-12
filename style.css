@@ -118,8 +118,7 @@ header{
 }
 @media screen and (max-width: 913px){
     .pizzaArea{
-        
-       background-color: tomato;
+
        justify-content: center;
     }
     .pizza-container{
